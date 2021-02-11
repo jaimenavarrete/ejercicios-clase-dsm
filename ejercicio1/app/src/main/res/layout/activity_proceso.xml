@@ -10,238 +10,38 @@
         android:id="@+id/textView52"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="57dp"
-        android:layout_y="5dp"
+        android:layout_x="65dp"
+        android:layout_y="34dp"
         android:text="TABLAS DE MULTIPLICAR"
+        android:textColor="#212121"
         android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/r1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="160dp"
-        android:layout_y="66dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/r2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="157dp"
-        android:layout_y="105dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/r3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="158dp"
-        android:layout_y="146dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/r4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="160dp"
-        android:layout_y="183dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/r5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="159dp"
-        android:layout_y="220dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/r6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="160dp"
-        android:layout_y="265dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
 
     <TextView
         android:id="@+id/n1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="98dp"
-        android:layout_y="66dp"
+        android:layout_x="139dp"
+        android:layout_y="100dp"
         android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="51dp" />
 
     <TextView
-        android:id="@+id/textView35"
+        android:id="@+id/r1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="126dp"
-        android:layout_y="184dp"
-        android:text="x 4 ="
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/textView36"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="127dp"
-        android:layout_y="222dp"
-        android:text="x 5 ="
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/textView37"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="127dp"
-        android:layout_y="264dp"
-        android:text="x 6 ="
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/textView38"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="133dp"
-        android:layout_y="305dp"
-        android:text="x 7 ="
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/textView39"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="133dp"
-        android:layout_y="345dp"
-        android:text="x 8 ="
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/textView40"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="132dp"
-        android:layout_y="381dp"
-        android:text="x 9 ="
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/textView41"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="125dp"
-        android:layout_y="416dp"
-        android:text="x 10 ="
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/textView32"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="122dp"
-        android:layout_y="69dp"
-        android:text="x 1 ="
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/textView33"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="124dp"
-        android:layout_y="104dp"
-        android:text="x 2 ="
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/textView34"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="125dp"
-        android:layout_y="150dp"
-        android:text="x 3 ="
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/n9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="101dp"
-        android:layout_y="381dp"
+        android:layout_x="239dp"
+        android:layout_y="100dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/n10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="102dp"
-        android:layout_y="417dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/r7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="163dp"
-        android:layout_y="306dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/r8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="165dp"
-        android:layout_y="345dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/r9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="163dp"
-        android:layout_y="381dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="51dp" />
-
-    <TextView
-        android:id="@+id/r10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="163dp"
-        android:layout_y="415dp"
-        android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="51dp" />
 
@@ -249,9 +49,41 @@
         android:id="@+id/n2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="97dp"
-        android:layout_y="104dp"
+        android:layout_x="139dp"
+        android:layout_y="140dp"
         android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="140dp"
+        android:text="x   2 ="
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/r2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="239dp"
+        android:layout_y="140dp"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="51dp" />
 
@@ -259,9 +91,41 @@
         android:id="@+id/n3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="97dp"
-        android:layout_y="146dp"
+        android:layout_x="139dp"
+        android:layout_y="180dp"
         android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="180dp"
+        android:text="x   3 ="
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/r3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="239dp"
+        android:layout_y="180dp"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="51dp" />
 
@@ -269,9 +133,41 @@
         android:id="@+id/n4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="99dp"
-        android:layout_y="182dp"
+        android:layout_x="139dp"
+        android:layout_y="220dp"
         android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="220dp"
+        android:text="x   4 ="
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/r4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="239dp"
+        android:layout_y="220dp"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="51dp" />
 
@@ -279,9 +175,41 @@
         android:id="@+id/n5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="102dp"
-        android:layout_y="222dp"
+        android:layout_x="139dp"
+        android:layout_y="260dp"
         android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="260dp"
+        android:text="x   5 ="
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/r5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="239dp"
+        android:layout_y="260dp"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="51dp" />
 
@@ -289,9 +217,41 @@
         android:id="@+id/n6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="96dp"
-        android:layout_y="265dp"
+        android:layout_x="139dp"
+        android:layout_y="300dp"
         android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="300dp"
+        android:text="x   6 ="
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/r6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="239dp"
+        android:layout_y="300dp"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="51dp" />
 
@@ -299,9 +259,41 @@
         android:id="@+id/n7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="99dp"
-        android:layout_y="304dp"
+        android:layout_x="139dp"
+        android:layout_y="340dp"
         android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="340dp"
+        android:text="x   7 ="
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/r7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="239dp"
+        android:layout_y="340dp"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="51dp" />
 
@@ -309,9 +301,125 @@
         android:id="@+id/n8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="101dp"
-        android:layout_y="344dp"
+        android:layout_x="139dp"
+        android:layout_y="380dp"
         android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="380dp"
+        android:text="x   8 ="
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/r8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="239dp"
+        android:layout_y="380dp"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/n9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="139dp"
+        android:layout_y="420dp"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="420dp"
+        android:text="x   9 ="
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/r9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="239dp"
+        android:layout_y="420dp"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/n10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="139dp"
+        android:layout_y="460dp"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="460dp"
+        android:text="x 10 ="
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/r10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="239dp"
+        android:layout_y="460dp"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="51dp" />
 
@@ -319,8 +427,24 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="125dp"
-        android:layout_y="462dp"
+        android:layout_x="145dp"
+        android:layout_y="522dp"
         android:onClick="finalizar"
         android:text="Regresar" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="100dp"
+        android:text="x   1 ="
+        android:textAlignment="center"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="51dp" />
+
 </AbsoluteLayout>
