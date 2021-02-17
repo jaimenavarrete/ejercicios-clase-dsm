@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUELDOS OPERARIOS"
+        android:textColor="#212121"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        />
+
+
+    <TextView
+        android:id="@+id/txtViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese su nombre:"
+        android:textColor="#212121"
+        android:textSize="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/txtViewTitle"
+        />
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/txtViewName"
+        />
+
+    <TextView
+        android:id="@+id/txtViewSalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese su sueldo:"
+        android:textColor="#212121"
+        android:textSize="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/txtName"
+        />
+    <EditText
+        android:id="@+id/txtSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/txtViewSalary"
+
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/txtViewYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese sus años de antiguedad:"
+        android:textColor="#212121"
+        android:textSize="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/txtSalary"
+        />
+    <EditText
+        android:id="@+id/txtYears"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/txtViewYears"
+
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtYears"
+        android:layout_marginHorizontal="20dp"
+        android:text="Calcular"
+        />
+
+</RelativeLayout>
