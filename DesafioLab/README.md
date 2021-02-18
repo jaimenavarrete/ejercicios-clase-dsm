@@ -15,6 +15,6 @@ c) Si el sueldo es mayor o igual a 500 mostrar el sueldo en pantalla sin cambios
 ## Integrantes
 
 * **Jaime Eduardo Navarrete Cubías**
-* **Integrante 2**
-* **Integrante 3**
-* **Integrante 4**
+* **Gerardo Javier López Flamenco**
+* **René Alexander Carrillo García**
+* **Rolando Enrique Orellana Portillo**

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowData">
+
+    <TextView
+        android:id="@+id/txtViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CÁLCULO DE AUMENTO"
+        android:textColor="#212121"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textColor="#212121"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/txtViewTitle"
+        />
+    <TextView
+        android:id="@+id/txtViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@id/txtViewTitle"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Años de antiguedad:"
+        android:textColor="#212121"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/txtViewName"
+        />
+    <TextView
+        android:id="@+id/txtViewYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@id/txtViewName"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salario:"
+        android:textColor="#212121"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/txtViewYears"
+        />
+    <TextView
+        android:id="@+id/txtViewSalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@id/txtViewYears"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aumento:"
+        android:textColor="#212121"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/txtViewSalary"
+        />
+    <TextView
+        android:id="@+id/txtViewIncrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@id/txtViewSalary"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUEVO SALARIO:"
+        android:textColor="#212121"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/txtViewIncrease"
+        />
+    <TextView
+        android:id="@+id/txtViewNewSalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#212121"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@id/txtViewIncrease"
+        />
+
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_below="@id/txtViewNewSalary"
+        android:text="Regresar"
+        />
+
+</RelativeLayout>
