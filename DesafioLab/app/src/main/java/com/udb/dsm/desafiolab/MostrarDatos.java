@@ -24,12 +24,28 @@ public class MostrarDatos extends AppCompatActivity {
         String salary = bundle.getString("salary");
         String years = bundle.getString("years");
 
+        //variable que convierte el numero viniente en double
+        double salDouble = Double.parseDouble(salary);
+        int anios = Integer.parseInt(years);
+        double newSalary;
+
+        if(salDouble < 500 && anios >= 10){
+            newSalary = salDouble + (salDouble * 0.2);
+        }
+        else if( salDouble < 500 && anios < 10){
+            newSalary = salDouble + (salDouble * 0.05);
+        }
+        else{
+            newSalary = salDouble;
+        }
+
         txtViewName = findViewById(R.id.txtViewName);
         txtViewSalary = findViewById(R.id.txtViewSalary);
         txtViewYears = findViewById(R.id.txtViewYears);
 
         txtViewName.setText(name);
-        txtViewSalary.setText(salary);
+        //de ser necesario agregar otr textView para agregar el salario anterior a el aumento
+        txtViewSalary.setText(newSalary);
         txtViewYears.setText(years);
         
         btnToast = findViewById(R.id.btnToast);
