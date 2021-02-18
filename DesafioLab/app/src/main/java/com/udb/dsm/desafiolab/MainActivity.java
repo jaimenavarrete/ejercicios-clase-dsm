@@ -36,27 +36,27 @@ public class MainActivity extends AppCompatActivity {
                    Toast toastMessage = Toast.makeText(this,"El salario debe ser un valor numérico",Toast.LENGTH_LONG);
                    toastMessage.show();
                }
-               else if(Double.parseDouble(salary) < 100) {
+               else if(Double.parseDouble(salary) < 100.0) {
                    Toast toastMessage = Toast.makeText(this,"El salario debe ser mayor o igual a $100",Toast.LENGTH_LONG);
                    toastMessage.show();
                }
-
-               if(!isNumeric(years)) {
+               else if(!isNumeric(years)) {
                    Toast toastMessage = Toast.makeText(this,"Los años deben ser un valor numérico",Toast.LENGTH_LONG);
                    toastMessage.show();
                }
-               else if(Double.parseDouble(years) < 0) {
+               else if(Double.parseDouble(years) < 0.0) {
                    Toast toastMessage = Toast.makeText(this,"Los años deben ser mayor a cero",Toast.LENGTH_LONG);
                    toastMessage.show();
                }
+               else {
+                   Intent intent = new Intent(this, ShowData.class);
 
-               Intent intent = new Intent(this, ShowData.class);
+                   intent.putExtra("name", name);
+                   intent.putExtra("salary", salary);
+                   intent.putExtra("years", years);
 
-               intent.putExtra("name", name);
-               intent.putExtra("salary", salary);
-               intent.putExtra("years", years);
-
-               startActivity(intent);
+                   startActivity(intent);
+               }
            }
            else {
                Toast toastMessage = Toast.makeText(this,"Tiene que rellenar todos los campos",Toast.LENGTH_LONG);

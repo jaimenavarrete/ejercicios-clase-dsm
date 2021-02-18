@@ -18,3 +18,29 @@ c) Si el sueldo es mayor o igual a 500 mostrar el sueldo en pantalla sin cambios
 * **Gerardo Javier López Flamenco**
 * **René Alexander Carrillo García**
 * **Rolando Enrique Orellana Portillo**
+
+## Pruebas de funcionamiento
+
+###Pantalla inicial (Activity 1)
+
+![Pantalla inicial](./pruebas/prueba1.png)
+
+###Prueba de notificaciones Toast (Por no ingresar datos)
+
+![Prueba Toast 1](./pruebas/prueba2.png)
+
+###Prueba de notificaciones Toast (Por ingresar un salario menor a $100)
+
+![Prueba Toast 2](./pruebas/prueba3.png)
+
+###Prueba de funcionamiento 1
+
+![Prueba de funcionamiento 1](./pruebas/prueba4.png)
+
+###Prueba de funcionamiento 2
+
+![Prueba de funcionamiento 2](./pruebas/prueba5.png)
+
+###Prueba de funcionamiento 3
+
+![Prueba de funcionamiento 3](./pruebas/prueba6.png)
