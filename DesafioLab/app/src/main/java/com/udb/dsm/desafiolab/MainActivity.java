@@ -31,6 +31,23 @@ public class MainActivity extends AppCompatActivity {
            String years = txtYears.getText().toString();
 
            if(!name.equals("") && !salary.equals("") && !years.equals("")) {
+
+               if(Double.parseDouble(salary) < 0){
+                   Toast toastMessage = Toast.makeText(this,"El salario debe de ser numero mayor que 0 (cero)",Toast.LENGTH_LONG);
+                   toastMessage.show();
+               }
+               else if(!isNumeric(salary)){
+                   Toast toastMessage = Toast.makeText(this,"El salario debe de ser un valor numerico",Toast.LENGTH_LONG);
+                   toastMessage.show();
+               }
+               else if(Double.parseDouble(years) < 0){
+                   Toast toastMessage = Toast.makeText(this,"Los años deben de ser numero mayor que 0 (cero)",Toast.LENGTH_LONG);
+                   toastMessage.show();
+               }
+               else if(!isNumeric(years)){
+                   Toast toastMessage = Toast.makeText(this,"Los años deben de ser un valor numerico",Toast.LENGTH_LONG);
+                   toastMessage.show();
+               }
                Intent intent = new Intent(this, MostrarDatos.class);
 
                intent.putExtra("name", name);
@@ -39,10 +56,20 @@ public class MainActivity extends AppCompatActivity {
 
                startActivity(intent);
            }
-           else {
+           else{
                Toast toastMessage = Toast.makeText(this,"Tiene que rellenar todos los campos",Toast.LENGTH_LONG);
                toastMessage.show();
            }
         });
+    }
+    public static boolean isNumeric(String cadena) {
+        boolean resultado;
+        try {
+            Double.parseDouble(cadena);
+            resultado = true;
+        } catch (NumberFormatException excepcion) {
+            resultado = false;
+        }
+        return resultado;
     }
 }
